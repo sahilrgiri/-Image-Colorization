@@ -657,15 +657,3 @@ Here I show you the outputs of the U-Net without adversarial training and U-Net 
 You can also see the GIF below to observe the difference between the images better:
 
 <img src="/files/anim_compare.gif" width="65%">
-
-(animation of the last two images to better see the significant difference that adversarial training is making)
-
----
-
-## Final words
-
-This project was full of important lessons for myself. I spent a lot of time during the last month to implement lots of different papers each with different strategies and it took quite a while and after A LOT of failures that I could come up with this method of training. Now you can see that how pretraining the generator significantly helped the model and improved the results.
-
-I also learned that some observations, although at first feeling like a bad mistake of yours, are worth paying attention to and further investigation; like the case of dropout in this project. Thanks to the helpful community of deep learning and AI, you can easily ask experts and get the answer you need and become more confidant in what you were just guessing. 
-
-I want to thank the authors of this wonderful paper for their awesome work and also [the great GitHub reposi
